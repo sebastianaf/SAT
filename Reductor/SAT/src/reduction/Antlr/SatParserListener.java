@@ -1,5 +1,8 @@
 // Generated from C:/Users/57310/Documents/Github/SAT/src/reduction/Antlr\SatParser.g4 by ANTLR 4.8
 package reduction.Antlr;
+
+    import java.lang.Math;
+
 import org.antlr.v4.runtime.tree.ParseTreeListener;
 
 /**
