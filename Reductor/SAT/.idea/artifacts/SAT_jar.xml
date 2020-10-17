@@ -6,7 +6,7 @@
         <element id="file-copy" path="$PROJECT_DIR$/../META-INF/MANIFEST.MF" />
       </element>
       <element id="module-output" name="SAT" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/../../../antlr-4.8-complete.jar" path-in-jar="/" />
+      <element id="file-copy" path="$PROJECT_DIR$/../antlr-4.8-complete.jar" />
     </root>
   </artifact>
 </component>
