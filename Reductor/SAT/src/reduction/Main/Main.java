@@ -16,6 +16,13 @@ public class Main {
         try {
             File folderInstancias = new File("../InstanciasSAT");
             File [] files = folderInstancias.listFiles();
+            if(files.length==0){
+                System.out.println(".JAR's BAD UBICATION OR EMPTY FOLDER");
+            }
+
+            for (int i = 0;i<files.length;i++){
+                System.out.println(files[i].getName());
+            }
 
             //Default sat to reduce
             int xsat = 3;
@@ -75,7 +82,7 @@ public class Main {
 
 
         }catch (Exception e){
-            e.printStackTrace();
+            System.out.println(e.getLocalizedMessage());
         }
 
     }
