@@ -85,7 +85,7 @@ public class SatVisitor extends SatParserBaseVisitor <String> {
                     //concateno la variable nueva
                     clause = clause.concat(String.valueOf(this.max + newVariable)).concat(" ");
                 }
-                clause = clause.concat("\n");
+                clause = clause.concat("0 \n");
             }
             //seteo mi siguiente valor maximo como el anterior mas la cantidad de variables agregadas
             this.max = this.max + this.xsat - numbers.size();
@@ -111,7 +111,7 @@ public class SatVisitor extends SatParserBaseVisitor <String> {
                     clause = clause.concat("-").concat(String.valueOf(this.max)).concat(" ").concat(strpiece).concat(" ").concat(String.valueOf(this.max + 1));
                     this.max = this.max + 1;
                     lastindex = lastindex + 1;
-                    clause = clause.concat("\n");
+                    clause = clause.concat("0 \n");
                 }
                 //substring de la ultima clausula
                 piece = copyOfRange(auxVariables, lastindex, lastindex + this.xsat - 1);
