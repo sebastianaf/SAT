@@ -3,8 +3,8 @@ c This is glucose 4.1 --  based on MiniSAT (Many thanks to MiniSAT team)
 c
 c ========================================[ Problem Statistics ]===========================================
 c |                                                                                                       |
-c |  Number of variables:           175                                                                   |
-c |  Number of clauses:             753                                                                   |
+c |  Number of variables:            75                                                                   |
+c |  Number of clauses:             325                                                                   |
 c |  Parse time:                   0.00 s                                                                 |
 c |                                                                                                       |
 c | Preprocesing is fully done
@@ -29,20 +29,19 @@ c |                                                                             
 c |          RESTARTS           |          ORIGINAL         |              LEARNT              | Progress |
 c |       NB   Blocked  Avg Cfc |    Vars  Clauses Literals |   Red   Learnts    LBD2  Removed |          |
 c =========================================================================================================
-c |        2         0     5000 |     164      711     2154 |     2     2834      117     2392 |  2.910 % |
 c =========================================================================================================
-c restarts              : 2 (5360 conflicts in avg)
-c blocked restarts      : 12 (multiple: 1) 
-c last block at restart : 2
-c nb ReduceDB           : 2
-c nb removed Clauses    : 2392
-c nb learnts DL2        : 157
-c nb learnts size 2     : 68
-c nb learnts size 1     : 14
-c conflicts             : 10720          (72432 /sec)
-c decisions             : 12541          (0.00 % random) (84736 /sec)
-c propagations          : 337774         (2282257 /sec)
-c nb reduced Clauses    : 0
-c CPU time              : 0.148 s
+c restarts              : 1 (177 conflicts in avg)
+c blocked restarts      : 0 (multiple: 0) 
+c last block at restart : 0
+c nb ReduceDB           : 0
+c nb removed Clauses    : 0
+c nb learnts DL2        : 24
+c nb learnts size 2     : 14
+c nb learnts size 1     : 6
+c conflicts             : 177            (44250 /sec)
+c decisions             : 201            (0.00 % random) (50250 /sec)
+c propagations          : 3128           (782000 /sec)
+c nb reduced Clauses    : 1
+c CPU time              : 0.004 s
 
 s UNSATISFIABLE
