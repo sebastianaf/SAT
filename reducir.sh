@@ -1,2 +1,3 @@
 #!/bin/bash
-exec java -jar Reductor/SAT.jar $2
+cd Reductor
+exec java -jar SAT.jar $2
