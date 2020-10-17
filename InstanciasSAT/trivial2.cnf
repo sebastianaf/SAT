@@ -1,0 +1,4 @@
+c Instancia trivial positiva de SAT
+p cnf 4 2
+1 2 -3 4
+1
