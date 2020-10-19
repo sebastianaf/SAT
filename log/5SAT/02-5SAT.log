@@ -3,8 +3,8 @@ c This is glucose 4.1 --  based on MiniSAT (Many thanks to MiniSAT team)
 c
 c ========================================[ Problem Statistics ]===========================================
 c |                                                                                                       |
-c |  Number of variables:           486                                                                   |
-c |  Number of clauses:             872                                                                   |
+c |  Number of variables:           725                                                                   |
+c |  Number of clauses:            1300                                                                   |
 c |  Parse time:                   0.00 s                                                                 |
 c |                                                                                                       |
 c | Preprocesing is fully done
@@ -29,20 +29,20 @@ c |                                                                             
 c |          RESTARTS           |          ORIGINAL         |              LEARNT              | Progress |
 c |       NB   Blocked  Avg Cfc |    Vars  Clauses Literals |   Red   Learnts    LBD2  Removed |          |
 c =========================================================================================================
-c last restart ## conflicts  :  9 7 
+c last restart ## conflicts  :  39 9 
 c =========================================================================================================
-c restarts              : 1 (9 conflicts in avg)
+c restarts              : 1 (39 conflicts in avg)
 c blocked restarts      : 0 (multiple: 0) 
 c last block at restart : 0
 c nb ReduceDB           : 0
 c nb removed Clauses    : 0
-c nb learnts DL2        : 3
+c nb learnts DL2        : 2
 c nb learnts size 2     : 0
 c nb learnts size 1     : 0
-c conflicts             : 9              (inf /sec)
-c decisions             : 19             (0.00 % random) (inf /sec)
-c propagations          : 179            (inf /sec)
+c conflicts             : 39             (9750 /sec)
+c decisions             : 53             (0.00 % random) (13250 /sec)
+c propagations          : 893            (223250 /sec)
 c nb reduced Clauses    : 0
-c CPU time              : 0 s
+c CPU time              : 0.004 s
 
 s SATISFIABLE
